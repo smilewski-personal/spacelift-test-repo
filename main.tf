@@ -29,5 +29,6 @@ resource "aws_s3_bucket" "orbit_storage" {
     managedBy = "Spacelift"
     mission   = "First Launch"
     project   = "Orbit-labs"
+    owner     = "SMilewski"
   }
 }
